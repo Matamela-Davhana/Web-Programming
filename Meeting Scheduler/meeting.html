@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="meeting.js"></script>
+    <link rel="stylesheet" href="meeting.css">
+    <title>Meeting Scheduler World-wide</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <div id="slogan">
+            <h1>Meet <strong>Wherever</strong> you are <strong>Whenever</strong> you want <strong>Always</strong></h1> <br>
+            <p>People all over the world would like to meet and work together on a free platform that everyone can use easily.</p>
+        </div>
+    </header>
+    <br>
 
+    <div id="container">
+      <body>
+        <form id="meetingform">
+            <label for="meeting name">Meeting Name</label>
+            <input id="meeting name" type="text" required placeholder="June Elections Risks Identified Discussion"><br>
+
+            <label for="datetime">Date and Time</label>
+            <input title="datetime-local" type="datetime-local" required> <br>
+
+            <button title="create meeting" type="submit">Create Meeting Link</button>
+        </form>
+        <br>
+        <h2>Generated Link</h2>
+        <input id="linkpost" title="linkpost" type="text" readonly>
+      </body>
+    </div>
+</body>
+</html>
