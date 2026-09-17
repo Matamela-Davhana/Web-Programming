@@ -1,1 +1,115 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9fafc;
+  padding: 20px 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
 
+#logo img {
+  width: 120px;
+  height: auto;
+}
+
+#slogan {
+  max-width: 70%;
+  text-align: left;
+}
+
+#slogan h1 {
+  font-size: 22px;
+  color: #007bff;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+#slogan strong {
+  color: #ff6b00;
+}
+
+#slogan p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 20px 40px 20px rgba(0,0,0,0.1);
+}
+
+.logo-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+h1 {
+  color: #007bff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-left: 10%;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  width: 60%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-left: 10%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 10%;
+  padding: 12px;
+  align-self: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#linkOutput {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10%;
+  font-size: 14px;
+}
