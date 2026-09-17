@@ -5,7 +5,7 @@ Meetly is a simple web-based meeting scheduler that allows users to create meeti
 
 ---
 
-## ✨ Features
+## Features
 - Create meetings with a **title** and **date/time**.
 - Automatically detect the user’s **time zone**.
 - Convert meeting times to **UTC** for universal sharing.
@@ -15,7 +15,7 @@ Meetly is a simple web-based meeting scheduler that allows users to create meeti
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 meeting-scheduler/
 │── index.html      # Main page with form and meeting display
 │── style.css       # Styling for layout and branding
